@@ -1,0 +1,98 @@
+body {
+    color: #49495B;
+    font-family: Arial, sans-serif;
+    width: 960px;
+    margin: 0 auto;
+    background-image: url("../images/bgd.jpg");
+    background-size: 100%;
+}
+
+header,
+h1 {
+    color: #636E83;
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    columns: 2;
+}
+
+
+#logo {
+    background: #636E83;
+    color: white;
+    display: block;
+    overflow: auto;
+    padding: 30px;
+    position: fixed;
+    margin-bottom: 0;
+    border-bottom: : 2px solid #ccc;
+}
+
+#submit {
+    background: #636E83;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+#message {
+    padding: 5%;
+}
+
+#me {
+    width: 200px;
+    float: left;
+    padding-right: 20px;
+    opacity: 0.75;
+}
+
+#contact {
+    width: 50px;
+}
+
+nav {
+    position: relative;
+    right: 27%;
+    top: 5%;
+    padding: 6% 6% 0% 6%;
+    font-size: 16px;
+    float: right;
+}
+
+aside {
+    position: absolute;
+    right: 25%;
+    top: 12.5%;
+    padding: -20% 0% 20% 1%;
+    width: 270px;
+    font-size: 16px;
+    float: right;
+}
+
+main {
+    margin-top: 0;
+    width: 650px;
+    height: 310px;
+    padding: 10px;
+    position: relative;
+    top: 130px;
+    background: #E6E6E4;
+    border: 1px solid;
+    border-color: #dddddd;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #49495B;
+    color: white;
+    padding: 20px;
+    border-top: 10px solid #B4B6AE;
+}
